@@ -7,10 +7,11 @@ app.use(json())
 
 app.use('/', todoRouter)
 
-const port = 4700
+//const port = 4700
 
 app.listen(port, ()=>{
-    console.log(`Listening on port ${port}`)
+    //console.log(`Listening on port ${port}`)
+    console.log(`Listening on port 4900`)
 })
 
 export default app
